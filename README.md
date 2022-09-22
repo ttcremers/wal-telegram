@@ -1,17 +1,16 @@
 Based on [telegram-palette-gen] which is not maintained anymore
 
+This is a fork of https://github.com/guillaumeboehm/wal-telegram changed to work with ImageMagick 6, so it works on Ubuntu (tested on Jammy). For arch and Manjaro please refer to the original repo and/or the aur package.
+
 # Installation
 
 Dependencies:
 [imagemagick]
 [zip]
 
-## Arch and Arch based (Manjaro,...)
-install the [wal-telegram-git] package from the aur.
-
-## Manual
+## Usage
 ```bash
-git clone --depth 1 https://github.com/guillaumeboehm/wal-telegram ~/.wal-telegram
+git clone --depth 1 https://github.com/ttcremers/wal-telegram ~/.wal-telegram
 cd ~/.wal-telegram
 sudo make install
 cd && rm ~/.wal-telegram
